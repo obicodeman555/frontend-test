@@ -1,0 +1,42 @@
+:root {
+    --primary-black: #0C1825;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: #f3f3f3;
+}
+
+html,
+body {
+    height: 100%;
+    color: var(--primary-black);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+a,
+button {
+    font-family: inherit;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}

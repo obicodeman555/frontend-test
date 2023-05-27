@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Test</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <main class="container">
+        <article class="paper">
+            <div class="paper__inner">
+                <!--header-->
+                <header>
+                    <!---Logo-->
+                    <div class="logo">
+                        <img src="./assets/svgs/ace-coin-logo.svg" alt="AceCoinPay logo">
+                        <span class="logo-text">
+                            <span>AceCoin</span>
+                            <span>Pay</span>
+                        </span>
+                    </div>
+                    <!--time count down-->
+                    <div class="time-count-down">
+                        <div>
+                            <span>0</span>
+                            <span>1</span>
+                        </div>
+                        <div>:</div>
+                        <div>
+                            <span>1</span>
+                            <span>9</span>
+                        </div>
+                    </div>
+                </header>
+                <section>
+                    <!---Form-->
+                    <div class="form-block">
+                        <form>
+                            <div>
+                                <div>
+                                    <div class="label-block">
+                                        <label>Card Number</label>
+                                        <span>Enter the 16-digit card number on the card</span>
+                                    </div>
+                                    <button type="button">
+                                        <img src="./assets/svgs/pencil.svg"
+                                            alt="pen icon that represent the action to edit card number">
+                                        <span>Edit</span>
+                                    </button>
+                                </div>
+                                <div class="input-block">
+                                    <div class="input-block__inner">
+                                        <img src="./assets/svgs/master-card.svg" alt="master card icon">
+                                        <div class="">
+                                            <input type="text">
+                                        </div>
+                                        <img src="./assets/svgs/seal-check-fill.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="label-block">
+                                    <label>CVV Number</label>
+                                    <span>Enter the 3 or 4 digits on the card</span>
+                                </div>
+                                <div class="input-block">
+                                    <div class="input-block__inner">
+                                        <input type="text">
+                                        <img src="./assets/svgs/grid.svg" alt="this icon represents a grid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="label-block">
+                                    <label>Expiry Date</label>
+                                    <span>Enter the expiration date on the card</span>
+                                </div>
+                                <div>
+                                    <div class="input-block">
+                                        <div class="input-block__inner">
+                                            <input type="text">
+
+                                        </div>
+                                    </div>
+                                    <span>/</span>
+                                    <div class="input-block">
+                                        <div class="input-block__inner">
+                                            <input type="text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="label-block">
+                                    <label>Password</label>
+                                    <span>Enter your Dynamic password</span>
+                                </div>
+                                <div class="input-block">
+                                    <div class="input-block__inner">
+                                        <input type="text">
+                                        <img src="./assets/svgs/grid.svg" alt="this icon represents a grid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <button>
+                                    pay now
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <!---Order Details-->
+                    <div class="order-details-block">
+                        <div class="order-details">
+                            <div class="card"></div>
+                            <div class="order-summary">
+                                <div>
+                                    <span>
+                                        Company
+                                    </span>
+                                    <span>
+                                        <img src="./assets/svgs/apple-logo-fill.svg" alt="apple logo">
+                                        <span>Apple</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Order Number</span>
+                                    <span>1266201</span>
+                                </div>
+                                <div>
+                                    <span>Product</span>
+                                    <span>MacBook Air</span>
+                                </div>
+                                <div>
+                                    <span>VAT (20%)</span>
+                                    <span>$100</span>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <div>
+                                <div>
+                                    <span>You Pay</span>
+                                    <span>
+                                        549. <small>99</small>
+                                    </span>
+                                    <span>USD</span>
+                                </div>
+                                <img src="./assets/svgs/reciept.svg" alt="this is a reciept icon">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!---Close buttom-->
+                <div class="close-button">
+                    <button type="button">
+                        <img src="./assets/svgs/sign-times-thin.svg" alt="times icon to close a modal or dialog">
+                    </button>
+                </div>
+            </div>
+
+        </article>
+    </main>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
